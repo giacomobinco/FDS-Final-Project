@@ -12,16 +12,16 @@ import warnings
 warnings.filterwarnings('ignore', category=UserWarning)
 
 
-AUDIO_DIR = '/Users/hermellaberhanu/Downloads/fma_small/' 
-OUTPUT_DIR = '/Users/hermellaberhanu/Desktop/git-tutorial/fma_spectrograms/'
-METADATA_PATH = '/Users/hermellaberhanu/Downloads/fma_metadata/tracks.csv' 
+AUDIO_DIR = 'fma_small' 
+OUTPUT_DIR = 'fma_spectrograms'
+METADATA_PATH = 'fma_metadata/tracks.csv' 
 
 # Hyperparameters for Spectrogram Generation
 DURATION = 3        
 TARGET_SR = 22050   
 N_FFT = 2048
 HOP_LENGTH = 512
-MAX_SAMPLES = 100 
+MAX_SAMPLES = 0 
 
 # Create output directory if it doesn't exist
 os.makedirs(OUTPUT_DIR, exist_ok=True)
