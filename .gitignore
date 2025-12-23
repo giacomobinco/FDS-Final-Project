@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# macOS
+.DS_Store
+
+# Models
+*.pt
+
+# Gradio
+.gradio/
+
+# Datasets
+fma_small/
+fma_spectrograms/
+fma_metadata/
